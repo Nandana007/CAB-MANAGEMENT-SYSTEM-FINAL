@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+    body {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    }
+
+    .my-video{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+      
+    }
+    
+    .container {
+    height: 600px;
+    width: 400px;
+    background-image: linear-gradient(#021827, black);
+    top: 50%;
+    left: 80%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 20px;
+    border-color: goldenrod;
+    border-width: 3px;
+    opacity:0.7;
+
+    }
+    
+    .main-content {
+    height: 360px;
+    background-color:black;
+    border-radius: 20px;
+    border-color: goldenrod;
+    }
+    
+    .text {
+    text-align: center;
+    font-size: 300%;
+    text-decoration: aliceblue;
+    color: aliceblue;
+    }
+    
+    .course {
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    }
+    
+    .centre-content {
+    height: 180px;
+    margin: -70px 30px 20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 25px;
+    padding-top: 0.5px;
+    
+    }
+    
+    .centre-content-h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: normal;
+    }
+    
+    .price {
+    font-size: 60px;
+    margin-left: 5px;
+    bottom: 15px;
+    position: relative;
+    }
+    
+    .pay-now-btn {
+    cursor: pointer;
+    color:black;
+    height: 50px;
+    width: 200px;
+    border: none;
+    margin: 5px 30px;
+    border-color: white;
+    position: relative;
+    border-radius: 8px;
+    margin-left: 80px;
+    }
+    
+    
+    .card-details {
+    background: black;
+    color: rgb(225, 223, 233);
+    margin: 10px 30px;
+    padding: 10px;
+    align-items: center;
+    }
+    
+    .card-details p {
+    font-size: 15px;
+    }
+    
+    .card-details label {
+    font-size: 15px;
+    line-height: 35px;
+    }
+    
+    .submit-now-btn {
+    cursor: pointer;
+    color:black;
+    height: 30px;
+    width: 240px;
+    border: none;
+    margin: 5px 30px;
+    background-color:whitesmoke;
+    border-radius: 6px;
+    }

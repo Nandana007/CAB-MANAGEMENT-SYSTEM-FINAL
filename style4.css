@@ -1,0 +1,29 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    }
+
+.container {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 30%;
+    height: 85%; 
+    padding-top: 15px;  
+    background-color:black;
+    opacity: 0.8;  
+} 
+
+.my-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  
+}

@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKING PAGE</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <video autoplay muted loop plays-inline class="my-video">
+        <source src="video1.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+    <div class="head">
+        <div class="card">
+            <div class="inside" id="card">
+                <div class="front">
+                    <h2>BOOKING</h2>
+                    <form name="bookingForm" id="bookingForm" action="Payment.html">
+                        <input type="text" id="source" name="source" class="input-box" placeholder="SOURCE" required >
+                        <input type="text" id="destination" name="destination"class="input-box" placeholder="DESTINATION" required >
+                        <!-- <button type="submit"id="btn-book" name="btn-book" class="sbtn">SEARCH</button> -->
+                        <button type="submit" type="submit" id="btn-book" class="sbtn" >Proceed to Payment</button>
+                        <input type="checkbox"><span>Remember Journey</span>
+                    </form>
+                    <!-- <button type="button" class="btn" onclick="openPayment()">Proceed to Payment</button> -->
+                   
+                </div>
+                </div>
+        </div>
+    </div>
+</div>
+    
+<script src="script.js"></script>
+
+<script>
+   
+    var source = document.forms['bookingForm']['source'];
+    var destination = document.forms['bookingForm']['destination'];
+    var btn = document.getElementById('btn-book');
+    
+    
+    document.querySelectorAll('#bookingForm input').forEach(e=>{
+        e.addEventListener('keyup', function(event){
+        
+            if((source.value == destination.value)){
+               btn.setAttribute('disabled', true);
+            }
+            else{
+                btn.getAttribute('disabled');
+                btn.removeAttribute('disabled');
+            }
+    
+        })
+    });
+    
+    </script>
+</body>
+</html>
